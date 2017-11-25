@@ -1,0 +1,22 @@
+spring boot集成spring jpa的步骤
+1.加入依赖包
+2.数据库的配置
+3.设置jpa的配置
+4.创建一个接口继承CrudRepository的接口
+
+spring boot spring data jpa介绍
+Repository接口
+CrudRepository继承Repository
+JpaRepository继承Repository
+通常开发时，我们都是使用CrudRepository或JpaRepository
+
+JdbcTemplate类
+@Resource
+JdbcTemplate jdbcTemplate;
+
+#全局异常处理器
+
+
+
+
+
