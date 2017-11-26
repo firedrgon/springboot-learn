@@ -8,11 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.converter.HttpMessageConverter;
 
 import java.util.List;
 
 @SpringBootApplication
+@ComponentScan("com.ypvoid,com.didispace")
 public class Chapter4Application
 //		extends WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter
 {
