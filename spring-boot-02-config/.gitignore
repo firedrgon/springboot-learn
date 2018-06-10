@@ -16,3 +16,7 @@ rebel.xml
 /.metadata/
 /.recommenders/
 /Servers
+/.mvn
+.project
+.settings
+.classpath
