@@ -21,7 +21,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 			%n是换行符
         -->
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [ %thread ] - [ %-5level ] [ %logger{50} : %line ] - %msg%n</pattern>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [ %thread ] - [ %-5level ] [ %logger{50} : %line ] - %msg%n</pattern>
         </layout>
     </appender>
 
@@ -67,7 +67,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
 		表示当前logger的appender-ref和rootLogger的appender-ref都有效
     -->
     <!-- hibernate logger -->
-    <logger name="com.atguigu" level="debug" />
+    <logger name="com.atguigu" level="info" />
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="debug" additivity="false"></logger>
 
